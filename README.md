@@ -25,7 +25,6 @@
 - [Database Schema](#-database-schema)
 - [Testing Without Hardware](#-testing-without-hardware)
 - [Troubleshooting](#-troubleshooting)
-- [Contributors](#-contributors)
 
 ---
 
@@ -430,14 +429,6 @@ This pushes simulated sensor data through MQTT → Backend → Mobile App, makin
 | MQ-135 reads very high | Normal on first power-up. Needs 24–48 hour warm-up for accurate readings |
 | Sensor reads 0 or NaN | Check wiring and GPIO pin assignments |
 | Relay doesn't click | Relay VCC must be connected to **5V (VIN)**, not 3.3V |
-
----
-
-## 👥 Contributors
-
-| Name | Role |
-|------|------|
-| **Danial** | Lead Developer — Full Stack IoT |
 
 ---
 
